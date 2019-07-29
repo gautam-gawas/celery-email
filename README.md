@@ -1,10 +1,10 @@
 # celery-email
 send email through celery django
 
-install python3 and setup virtualenv
+"<b>install python3 and setup virtualenv</b>"
     sudo apt-get install python3
     sudo apt install virtualenv
-virtualenv -p python3 envname
+"<b>virtualenv -p python3 envname</b>"
     source envname/bin/activate
 
 To install it on a newer Ubuntu version is very straightforward:
@@ -31,7 +31,7 @@ Note: Please change following in settings
 endpoint:   POST  http://127.0.0.1:8000/api/v1/send-email
 endpoint_params :     
 {
-	"email_to" : ["gautam.gawas@carcrew.in","saurabh.sharma1@carcrew.in"],
+	"email_to" : ["email_to@gmail.com"],
 	"email_html" : "<h1>This is my HTML test</h1>"
 }
 
