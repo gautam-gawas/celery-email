@@ -25,6 +25,8 @@ source envname/bin/activate
 ## Go to project directory celery-email and then 
 ```bash
 pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 ```
 
 ## To start celery worker:
