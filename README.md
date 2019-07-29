@@ -2,12 +2,12 @@
 send email through celery django
 
 ## install python3 and setup virtualenv:
-    ```bash
-    sudo apt-get install python3
-    sudo apt install virtualenv   
-    virtualenv -p python3 envname
-    source envname/bin/activate
-    ```
+```
+sudo apt-get install python3
+sudo apt install virtualenv   
+virtualenv -p python3 envname
+source envname/bin/activate
+```
 
 ## To install RabbitMQ:
   ```bash
