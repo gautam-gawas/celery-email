@@ -23,9 +23,9 @@ source envname/bin/activate
   ```
   
 ## Go to project directory celery-email and then 
-	```bash
-	pip install -r requirements.txt
-	```
+```bash
+pip install -r requirements.txt
+```
 
 ## To start celery worker:
 ```bash
