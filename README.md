@@ -1,7 +1,7 @@
 # celery-email
 send email through celery django
 
-## install python3 and setup virtualenv
+## install python3 and setup virtualenv:
     ```bash
     sudo apt-get install python3
     sudo apt install virtualenv   
